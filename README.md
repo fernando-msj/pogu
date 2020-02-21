@@ -1,6 +1,6 @@
 ## PogU.js BetterTTV Emotes for the browser console
 -------
-It adds a new function `console.logU` wich transforms the inputed string to contain Twitch emotes.
+It adds a new function `console.logU` wich transforms the input string to contain Twitch emotes.
 
 ![BG](/images/bg.png)
 
