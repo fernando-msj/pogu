@@ -1,4 +1,4 @@
-function init(userLibs = [], channelLibs = [], callback) {
+function init(userLibs = [], channelLibs = [], callback = () => 0) {
     const scale = '1x';
     const emoteLibrary = {};
     let emoteKeys = [];
@@ -70,7 +70,6 @@ function init(userLibs = [], channelLibs = [], callback) {
 
                         }).then(() => {
                             Promise.all(allPromises).then(() => {
-                                debugger;
                                 Object.assign(emoteLibrary, ALL);
                                 emoteKeys = Object.keys(emoteLibrary);
                                 emotesRegexes = emoteKeys.map(key => new RegExp(`\\b${key}\\b`, 'g'))
