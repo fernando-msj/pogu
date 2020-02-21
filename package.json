@@ -1,0 +1,11 @@
+{
+  "name": "pogu",
+  "version": "1.0.0",
+  "description": "Adds BetterTTV emotes from any channel to your broser console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Mendes",
+  "license": "ISC"
+}
